@@ -1,0 +1,39 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.3.6)
+    cookiejar (0.3.2)
+    curb (0.8.5)
+    em-http-request (1.1.2)
+      addressable (>= 2.3.4)
+      cookiejar
+      em-socksify (>= 0.3)
+      eventmachine (>= 1.0.3)
+      http_parser.rb (>= 0.6.0)
+    em-socksify (0.3.0)
+      eventmachine (>= 1.0.0.beta.4)
+    em-synchrony (1.0.3)
+      eventmachine (>= 1.0.0.beta.1)
+    eventmachine (1.0.3)
+    excon (0.33.0)
+    http_parser.rb (0.6.0)
+    httpclient (2.3.4.1)
+    httpi (2.1.0)
+      rack
+      rubyntlm (~> 0.3.2)
+    net-http-persistent (2.9.4)
+    rack (1.5.2)
+    rubyntlm (0.3.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  curb
+  em-http-request
+  em-synchrony
+  excon
+  httpclient
+  httpi
+  net-http-persistent
+  rack

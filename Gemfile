@@ -1,0 +1,10 @@
+source 'http://rubygems.org'
+
+gem 'httpi'
+gem 'httpclient'
+gem 'curb'
+gem 'em-synchrony'
+gem 'em-http-request'
+gem 'net-http-persistent'
+gem 'excon'
+gem 'rack'
