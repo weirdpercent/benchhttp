@@ -36,4 +36,4 @@ benchhttp
     0.040000   0.040000   0.080000 (  3.937494) - excon-head
 
 
-**SUBJECTIVE INTERPRETATION:** I read alot about various ruby http client libraries [here](http://www.slideshare.net/HiroshiNakamura/rubyhttp-clients-comparison) and [here](http://bit.ly/RubyHTTPClients2012). Granted, these links are 2 years old, and these libraries have changed since then, but still, I learned alot. The [httpi](httpirb.com) gem provides an interface to several common HTTP clients. These benchmarks are run using httpi to select the adapter. net-http-persistent seems to be the fastest without resorting to using EventMachine.
+**SUBJECTIVE INTERPRETATION:** I read alot about various ruby http client libraries [here](http://www.slideshare.net/HiroshiNakamura/rubyhttp-clients-comparison) and [here](http://bit.ly/RubyHTTPClients2012). Granted, these links are 2 years old, and these libraries have changed since then, but still, I learned alot. The [httpi](http://httpirb.com) gem provides an interface to several common HTTP clients. These benchmarks are run using httpi to select the adapter. net-http-persistent seems to be the fastest without resorting to using EventMachine.
