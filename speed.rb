@@ -144,7 +144,7 @@ def delete(url, adapter)
   str
 end
 
-SAMPLES = 5
+SAMPLES = 25
 root = 'http://httpbin.org'
 body = 'The quick brown fox jumped over the lazy dog.'
 Benchmark.bm do |r|
