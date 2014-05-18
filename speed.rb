@@ -7,7 +7,7 @@ require 'em-http-request'
 require 'net/http/persistent'
 require 'excon'
 require 'rack'
-HTTPI.log_level = :info
+HTTPI.log = false
 def get(url, adapter)
   case adapter
     when :client
